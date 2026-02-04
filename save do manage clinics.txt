@@ -1,0 +1,9 @@
+<tr>
+            <td><?= $clinica['id'] ?></td>
+            <td><?= htmlspecialchars($clinica['nome']) ?></td>
+            <td><?= htmlspecialchars($clinica['rua']) ?></td>
+            <td><?= htmlspecialchars($clinica['bairro']) ?></td>
+            <td><?= htmlspecialchars($clinica['cidade']) ?></td>
+            <td><?= htmlspecialchars($clinica['telefone']) ?></td>
+            <td><?= htmlspecialchars($clinica['contato_extra']) ?></td>
+            <td>
